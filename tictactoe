@@ -15,7 +15,7 @@ class TicTacToe:
     def check_win_combination(self, player_numbers):
         result = False
 
-        if(len(player_numbers) < 3):
+        if len(player_numbers) < 3:
             return result
 
         for numbers in self.combination_win:
